@@ -8,7 +8,7 @@ def reformat_languages(languages)
       hash[lan][:style] = :oo
     end
     if key2.include?(lan)
-      hash[lan][:style] = :functional
+      hash[lan][:style] = [:functional]
     end
   end
 end
