@@ -5,7 +5,7 @@ def reformat_languages(languages)
   key2 = languages[:functional].keys
   hash.each do |lan, stuff|
     if key1.include?(lan)
-      hash[lan][:style] = :oo
+      hash[lan][:style] = [:oo]
     end
     if key2.include?(lan)
       hash[lan][:style] = [:functional]
