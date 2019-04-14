@@ -1,8 +1,8 @@
 def reformat_languages(languages)
   new = languages.keys
-  has
+  hash = {}
   new.each do |x|
-    
+    hash << x
   end
   length1 = languages[:oo].length
   length2 = languages[:functional].length
